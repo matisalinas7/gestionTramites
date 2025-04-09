@@ -6,7 +6,7 @@
 
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost/disenio?serverTimezone=UTC</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/disenio?serverTimezone=America/Argentina/Buenos_Aires</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">disenio</property>
         <property name="hibernate.current_session_context_class">thread</property>
@@ -17,12 +17,8 @@
         <property name="hibernate.c3p0.max_statements">50</property>
         <property name="hibernate.c3p0.idle_test_period">3000</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
-
         <!--Clases a mapear-->
-        <mapping resource="estado.hbm.xml"/>
-        <mapping resource="articulo.hbm.xml"/>
-        <mapping resource="detallereposicion.hbm.xml"/>
-        <mapping resource="reposicion.hbm.xml"/>
+      
         <mapping resource="AgendaConsultor.hbm.xml"/>
         <mapping resource="CategoriaTipoTramite.hbm.xml"/>
         <mapping resource="Cliente.hbm.xml"/>
