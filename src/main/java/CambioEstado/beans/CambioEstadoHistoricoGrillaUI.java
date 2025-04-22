@@ -11,7 +11,7 @@ public class CambioEstadoHistoricoGrillaUI {
     private int nroTramite;
     private Timestamp fechaDesdeTET;
     private Timestamp fechaHastaTET;
-    private int contadorTET;
+    private Integer contadorTET;
     List<DTOHistorialEstado> mostrarHistorial;
     
 
@@ -48,11 +48,11 @@ public class CambioEstadoHistoricoGrillaUI {
         this.fechaHastaTET = fechaHastaTET;
     }
 
-    public int getContadorTET() {
+    public Integer getContadorTET() {
         return contadorTET;
     }
 
-    public void setContadorTET(int contadorTET) {
+    public void setContadorTET(Integer contadorTET) {
         this.contadorTET = contadorTET;
     }
 

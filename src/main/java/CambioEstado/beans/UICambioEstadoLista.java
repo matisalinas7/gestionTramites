@@ -29,7 +29,7 @@ public class UICambioEstadoLista implements Serializable {
     private String nombreFiltro = "";
     private String nombreTramite;
     private int nroTramite;
-    private int contadorTET;
+    private Integer contadorTET;
     private CambioEstadoHistoricoGrillaUI ultimoEstado;
     private List<CambioEstadoHistoricoGrillaUI> historialEstadosList = new ArrayList<>();
 

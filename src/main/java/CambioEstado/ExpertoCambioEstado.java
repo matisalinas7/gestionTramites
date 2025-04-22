@@ -220,7 +220,7 @@ public class ExpertoCambioEstado {
             List<TramiteEstadoTramite> tetList = tramite.getTramiteEstadoTramite();
 
             // Calcular el nuevo valor del contador
-            int nuevoContador = tetList.isEmpty()
+            Integer nuevoContador = tetList.isEmpty()
                     ? 1 // Si no hay historial, inicializamos en 1
                     : tetList.stream()
                             .mapToInt(TramiteEstadoTramite::getContadorTET)
@@ -388,7 +388,7 @@ public class ExpertoCambioEstado {
         historial.sort(Comparator.comparingInt(TramiteEstadoTramite::getContadorTET));
 
         // Recalcular los contadores desde 1 hacia adelante
-        int contador = 1;
+        Integer contador = 1;
         for (TramiteEstadoTramite estado : historial) {
             estado.setContadorTET(contador); // Ajustar el contador
             contador++;
