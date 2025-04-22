@@ -1,19 +1,40 @@
-= AdminFaces Starter project
+## Capturas del sistema
 
+A continuación se muestran algunas pantallas del sistema en funcionamiento:
 
-A simple project to get you started with https://github.com/adminfaces[AdminFaces^].
+### Login
+![Login](docs/caps/login.png)  
+Pantalla de acceso al sistema con validación de usuario.
 
-.Login page
-image:starter1.png[link="https://github.com/adminfaces/admin-starter/blob/master/starter1.png"]
+### Menú Principal
+![Menú Principal](docs/caps/menuPrincipal.png)  
+Pantalla inicial luego del login, con acceso a las distintas funcionalidades del sistema.
 
-.Car list
-image:starter2.png[link="https://raw.githubusercontent.com/adminfaces/admin-starter/master/starter2.png"]
+### Alta de Trámite
+![Alta de Trámite](docs/caps/altaTramite.png)  
+Formulario para registrar un nuevo trámite en el sistema.
 
-.Car form
-image:starter3.png[link="https://raw.githubusercontent.com/adminfaces/admin-starter/master/starter3.png"]
+### Lista de Trámites
+![Lista de Trámites](docs/caps/listaTramites.png)  
+Listado de trámites existentes con opciones de filtrado y acciones.
 
-.Car form responsive
-image:starter4.png[link="https://raw.githubusercontent.com/adminfaces/admin-starter/master/starter4.png"]
+### Detalle del Trámite
+![Detalle del Trámite](docs/caps/detalleTramite.png)  
+Visualización detallada de un trámite seleccionado.
+
+### Anular Trámite
+![Anular Trámite](docs/caps/anularTramite.png)  
+Opción para anular un trámite en estado pendiente o iniciado.
+
+### Agregar Documentación
+![Agregar Documentación](docs/caps/agregarDocumentacion.png)  
+Sección para adjuntar documentación a un trámite.
+
+### ABM de Estado Trámite
+![ABM Estado Trámite - Parte 1](docs/caps/abmET.png)  
+![ABM Estado Trámite - Parte 2](docs/caps/abmET2.png)  
+Interfaz de administración de estados posibles para los trámites (alta, baja y modificación).
+
 
 == Running
 
