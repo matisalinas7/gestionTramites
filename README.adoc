@@ -36,6 +36,7 @@ Sección para adjuntar documentación a un trámite.
 Interfaz de administración de estados posibles para los trámites (alta, baja y modificación).
 
 
+
 == Running
 
 It should run in any JavaEE 6 or greater application server.
