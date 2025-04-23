@@ -1,41 +1,38 @@
 ## Capturas del sistema
 
-A continuación se muestran algunas pantallas del sistema en funcionamiento:
-
 ### Login
-![Login](docs/caps/login.png)  
 Pantalla de acceso al sistema con validación de usuario.
+![Login](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/login.png?raw=true)
 
 ### Menú Principal
-![Menú Principal](docs/caps/menuPrincipal.png)  
 Pantalla inicial luego del login, con acceso a las distintas funcionalidades del sistema.
+![Menú Principal](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/menuPrincipal.png?raw=true)
 
 ### Alta de Trámite
-![Alta de Trámite](docs/caps/altaTramite.png)  
-Formulario para registrar un nuevo trámite en el sistema.
+Formulario para registrar un nuevo trámite en el sistema (de forma presencial).
+![Alta de Trámite](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/altaTramite.png?raw=true)
 
 ### Lista de Trámites
-![Lista de Trámites](docs/caps/listaTramites.png)  
 Listado de trámites existentes con opciones de filtrado y acciones.
+![Lista de Trámites](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/listaTramites.png?raw=true)
 
-### Detalle del Trámite
-![Detalle del Trámite](docs/caps/detalleTramite.png)  
+### Detalle de Trámite
 Visualización detallada de un trámite seleccionado.
+![Detalle de Trámite](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/detalleTramite.png?raw=true)
 
 ### Anular Trámite
-![Anular Trámite](docs/caps/anularTramite.png)  
-Opción para anular un trámite en estado pendiente o iniciado.
+Opción para anular un trámite.
+![Anular Trámite](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/anularTramite.png?raw=true)
 
 ### Agregar Documentación
-![Agregar Documentación](docs/caps/agregarDocumentacion.png)  
 Sección para adjuntar documentación a un trámite.
+![Agregar Documentación](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/agregarDocumentacion.png?raw=true)
 
-### ABM de Estado Trámite
-![ABM Estado Trámite - Parte 1](docs/caps/abmET.png)  
-![ABM Estado Trámite - Parte 2](docs/caps/abmET2.png)  
+### ABM Estado Trámite
 Interfaz de administración de estados posibles para los trámites (alta, baja y modificación).
-
-
+![ABM Estado Trámite](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/abmET.png?raw=true)
+### ABM Estado Trámite - Vista 2
+![ABM Estado Trámite 2](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/abmET2.png?raw=true
 
 == Running
 
