@@ -1,5 +1,5 @@
 # gestionTramites
-Sistema de Gestión de Trámites — Aplicación web para registrar, administrar y hacer seguimiento del estado de trámites en una empresa de servicios. Proyecto grupal desarrollado en el marco de la materia Diseño de Sistemas (3er año).
+# 📋 Sistema de Gestión de Trámites — Aplicación web para registrar, administrar y hacer seguimiento del estado de trámites en una empresa de servicios. Proyecto grupal desarrollado en el marco de la materia Diseño de Sistemas (3er año).
 
 ---
 
@@ -18,9 +18,10 @@ Sistema de Gestión de Trámites — Aplicación web para registrar, administrar
 ## 📈 Diagramas importantes del sistema
 
 ### Diagrama de Casos de Uso
-![DCU](docs/diagrams/DiagramadeCasosdeUso.pdf)
+[Ver Diagrama de Casos de Uso (PDF)](docs/diagrams/dcu.pdf)
+
 ### Diagrama de Clases
-![DC](docs/diagrams/DiagramadeClases.pdf)
+[Ver Diagrama de Clases (PDF)](docs/diagrams/dc.pdf)
 
 ---
 ## 📸 Capturas del sistema
