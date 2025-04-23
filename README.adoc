@@ -2,7 +2,7 @@
 
 ### Login
 Pantalla de acceso al sistema con validación de usuario.
-![Login](https://github.com/matisalinas7/gestionTramites/docs/caps/login.png?raw=true)
+![Login](https://github.com/matisalinas7/gestionTramites/blob/main/docs/caps/login.png)
 
 ### Menú Principal
 Pantalla inicial luego del login, con acceso a las distintas funcionalidades del sistema.
