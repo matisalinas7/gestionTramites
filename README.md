@@ -65,12 +65,22 @@ public class ExpertoRegistrarTramite {
 ## 📈 Documentation
 The system is fully documented following UML standards:
 
-###  [📄 Use Case Diagram (PDF)](docs/diagrams/dcu.pdf)
-###  [📄 Domain Class Diagram (PDF)](docs/diagrams/dc.pdf)
-###  [📐 Sequence Diagram: Register Procedure (PDF)](docs/diagrams/secuencia_registrar.pdf)
-  > *Full A3 diagram detailing the interaction between the Interface, Controller, Service, and Persistence layers.*
-###  [📝 Use Case Specification: Flow of Events (PDF)](docs/diagrams/flujo_sucesos_registrar.pdf)
-  > *Detailed functional requirements and step-by-step behavior for the "Register Procedure" use case.*
+## 📈 Documentation
+
+The system architecture and behavior are fully documented. The following artifacts served as the **source of truth** for the implementation, ensuring a strict match between requirements and code.
+
+### 🌍 Global Architecture
+- [📄 Domain Class Diagram (PDF)](docs/diagrams/dc.pdf)
+- [🔄 General Use Case Diagram (PDF)](docs/diagrams/dcu.pdf)
+
+### 📖 Detailed Design (By Module)
+Functional specifications (Flow of Events) and Technical Designs (Sequence Diagrams) for core modules:
+
+| Module / Use Case | Functional Spec (Flow) | Technical Design (Sequence A3) |
+| :--- | :---: | :---: |
+| **Registrar Trámite** | [📄 View Specification](docs/diagrams/flujo-reg-tra.pdf) | [📐 View Architecture](docs/diagrams/sec-reg-tra.pdf) |
+| **Registrar Documentación** | [📄 View Specification](docs/diagrams/flujo-reg-doc.pdf) | [📐 View Architecture](docs/diagrams/sec-reg-doc.pdf) |
+| **ABM Estado Trámite** | [📄 View Specification](docs/diagrams/flujo-abm-et.pdf) | [📐 View Architecture](docs/diagrams/sec-abm-et.pdf) |
 
 ---
 
